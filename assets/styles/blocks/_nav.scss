@@ -1,0 +1,94 @@
+a:hover{
+    color:white;
+}
+
+.nav {
+    text-align:center;
+    background:$gray;
+    padding:0px;
+    color:white;
+    font-family:'Sans serif';
+    min-height:100vh;
+    display:block;
+    position:relative;
+    padding-bottom:50px;
+    &__reset {
+        color:white;
+        text-decoration:none;
+    }
+    &__stick{
+        width:100%;
+        position:sticky; 
+        top:0;
+    }
+    &__pos {
+        padding:0;
+        margin-top:30%;
+        margin-bottom:30%;
+    }
+    &__designer {
+        text-align:center;
+        background:$blue;
+        padding:10%;
+        font-weight:900;
+        font-size:20px;
+        padding-bottom:0;
+        &__min {
+            font-size:11px;
+            background: $blue;
+            padding:10%;
+            letter-spacing:-1px;
+            padding-top:0;
+        }
+    }
+    &__home {
+        border-left: $border-width solid $blue;
+        padding:10%;
+        font-size:14px;
+        background-color: $gray2;
+        margin-bottom:1px;
+    }
+    &__home:hover{
+        background-color: $gray;
+    }
+    &__me{
+        border-left: $border-width solid $yellow;
+        padding:10%;
+        font-size:14px;
+        background-color: $gray2;
+        margin-bottom:1px;
+    }
+    &__me:hover{
+        background-color: $gray;
+    }
+    &__skills {
+        border-left: $border-width solid $purple;
+        padding:10%;
+        font-size:14px;
+        background-color: $gray2;
+        margin-bottom:1px;
+    }
+    &__skills:hover{
+        background-color:$gray;
+    }
+    &__experience {
+        border-left: $border-width solid $green;
+        padding:10%;
+        font-size:14px;
+        background-color: $gray2;
+        margin-bottom:1px;
+    }
+    &__experience:hover{
+        background-color: $gray;
+    }
+    &__contact {
+        border-left: $border-width solid $red;
+        padding:10%;
+        font-size:14px;
+        background-color: $gray2;
+        margin-bottom:1px;
+    }
+    &__contact:hover{
+        background-color: $gray;
+    }
+}

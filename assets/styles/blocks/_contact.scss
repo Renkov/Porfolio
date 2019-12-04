@@ -1,0 +1,71 @@
+.contact{
+    width:100%;
+    margin-top:5%;
+    &__bot {
+        margin-bottom:50px;
+    }
+    &__me {
+        width:auto;
+        border-top:4px solid $dark-red;
+        margin-left:5%;
+        margin-bottom:60px;
+        &__obj {
+            width:fit-content;
+            color:white;
+            background-color: $red;
+            padding:1.1em;
+        }
+    }
+    &__what{
+        display:flex;
+        margin:0;
+        margin-bottom: 5%;
+        &__txt{
+            text-align:center;
+            color: $white-blue;
+            &__small{
+            color: $white-blue;
+            font-size:13px;
+            }
+            &__big {
+                width:100%;
+                text-align:center;
+            }
+            &__area {
+            width: 80%;
+            height: 200px;
+            display: block;
+            margin-left:auto;
+            margin-right:auto;
+            }
+            &__input {
+                display:block;
+                border: 1px solid $white-blue;
+                width:100%;
+            }
+        }
+    }
+    &__img {
+        max-width:100%;
+    }
+    &__svg {
+        display: flex;
+        padding-left: 5%;
+        margin:0;
+    }
+    &__icon{
+        margin: 0 3% 0 3%;
+        background-color: $green;
+        text-align:center;
+        padding:3%;
+        color:white;
+        &__sp{
+            margin: 5% 0 5% 0;
+        }
+        &__sp:hover{
+            border:1px solid $gray3;
+        }
+    }
+    
+ }
+

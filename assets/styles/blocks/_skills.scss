@@ -1,0 +1,57 @@
+.skills{
+    width:100%;
+    margin-top:5%;
+    &__me {
+        width:auto;
+        border-top:4px solid $dark-purple;
+        margin-left:5%;
+        margin-bottom:60px;
+        &__obj {
+            width:fit-content;
+            color:white;
+            background-color: $purple;
+            padding:1.1em;
+        }
+    }
+    &__what{
+        display:flex;
+        margin:0;
+        margin-bottom: 5%;
+        
+        &__txt{
+            text-align:center;
+            margin-bottom:5%;
+            &__small{
+            color: $white-blue;
+            font-size:13px;
+            }
+            &__big {
+            color: $yellow;
+            margin: 5% 0 5% 0;
+            }
+        }
+    }
+    &__img {
+        max-width:100%;
+    }
+    &__icon{
+        margin: 0 3% 0 3%;
+        background-color: $purple;
+        text-align:center;
+        padding:3%;
+        color:white;
+        &__sp{
+            margin: 0 5% 0 5%;
+        }
+    }
+    &__icon2{
+        margin: 0 5% 0 5%;
+        background-color: $blue;
+        text-align:center;
+        padding:3%;
+        color:white;
+        &__sp{
+            margin: 0 5% 0 5%;
+        }
+    }
+ }
